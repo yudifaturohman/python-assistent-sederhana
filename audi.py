@@ -14,7 +14,7 @@ from selenium.webdriver.common.keys import Keys
 
 engine = pyttsx3.init('sapi5')
 
-client = wolframalpha.Client('KHEHHL-TTPV7J5HVE')
+client = wolframalpha.Client('API_CLIENT')
 
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[len(voices)-1].id)
